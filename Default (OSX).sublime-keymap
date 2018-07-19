@@ -1,0 +1,18 @@
+[
+    // Indents the current line, or selected lines according to the indentation
+   // rules for the active language mode.
+   { "keys": ["option+shift+i"], "command": "reindent", "args": {"single_line": true}},
+
+   { "keys": ["ctrl+z"], "command": "show_at_center"},
+
+   { "keys": ["ctrl+j"], "command": "set_motion", "args": {
+        "motion": "move",
+        "motion_args": {"by": "lines", "forward": true, "extend": true, "repeat": 10},
+        "linewise": true },
+        "context": [{"key": "setting.command_mode"}]
+    },
+
+    {"keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/User/up_5_lines_center.sublime-macro"}},
+
+    {"keys": ["ctrl+j"], "command": "run_macro_file", "args": {"file": "res://Packages/User/down_5_lines_center.sublime-macro"}},
+]

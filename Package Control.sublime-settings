@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"EasyClangComplete",
+		"Jedi - Python autocompletion",
+		"LC3 Assembly",
+		"Package Control",
+		"Pretty JSON"
+	]
+}
